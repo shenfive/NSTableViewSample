@@ -11,6 +11,7 @@
 		BAE7AA1A2779A9D800BDF271 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE7AA192779A9D800BDF271 /* ViewController.swift */; };
 		BAE7AA1C2779A9D800BDF271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE7AA1B2779A9D800BDF271 /* Assets.xcassets */; };
 		BAE7AA1F2779A9D800BDF271 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE7AA1D2779A9D800BDF271 /* Main.storyboard */; };
+		BAE7AA282779B22800BDF271 /* TODOLIST.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BAE7AA262779B22800BDF271 /* TODOLIST.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		BAE7AA1B2779A9D800BDF271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAE7AA1E2779A9D800BDF271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BAE7AA202779A9D800BDF271 /* NSTableViewSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSTableViewSample.entitlements; sourceTree = "<group>"; };
+		BAE7AA272779B22800BDF271 /* TODOLIST.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TODOLIST.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				BAE7AA172779A9D800BDF271 /* AppDelegate.swift */,
+				BAE7AA262779B22800BDF271 /* TODOLIST.xcdatamodeld */,
 				BAE7AA192779A9D800BDF271 /* ViewController.swift */,
 				BAE7AA1B2779A9D800BDF271 /* Assets.xcassets */,
 				BAE7AA1D2779A9D800BDF271 /* Main.storyboard */,
@@ -133,6 +136,7 @@
 			files = (
 				BAE7AA1A2779A9D800BDF271 /* ViewController.swift in Sources */,
 				BAE7AA182779A9D800BDF271 /* AppDelegate.swift in Sources */,
+				BAE7AA282779B22800BDF271 /* TODOLIST.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +205,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -256,7 +260,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -341,6 +345,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BAE7AA262779B22800BDF271 /* TODOLIST.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BAE7AA272779B22800BDF271 /* TODOLIST.xcdatamodel */,
+			);
+			currentVersion = BAE7AA272779B22800BDF271 /* TODOLIST.xcdatamodel */;
+			path = TODOLIST.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BAE7AA0C2779A9D800BDF271 /* Project object */;
 }
